@@ -1,0 +1,198 @@
+<!-- file: Review-jQuery-12.0006.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas jQuery</title>
+	<script src="jquery-3.3.1.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#tombol1").click(function(){
+			$("#satu").slideToggle("slow");
+		});
+	});
+	$(document).ready(function(){
+		$("#tombol2").click(function(){
+			$("#dua").slideToggle("slow");
+		});
+	});
+	$(document).ready(function(){
+		$("#tombol3").click(function(){
+			$("#tiga").slideToggle("slow");
+		});
+	});
+	</script>
+	<style type="text/css">
+	  body{
+	position:absolute;
+	left:50%;
+	top:20%;
+	margin-left:-170px; 
+	margin-top:-120px;
+	background-image: url(bluee.jpg);
+	background-size: cover;
+	}
+	img {
+		width: 300px;
+		height: 300px;
+	}
+	h2{ 
+		color: black;
+		font-size: 25px;
+		font-family: verdana;
+		text-align : center;
+	}
+	fieldset {
+		width: 300px;
+		background-image:bluee.jpg; background-size: cover;
+		position: absolute;
+		left:35%;
+		
+	}
+	.gbr {
+		width: 284px;
+		height: 300px;
+	}
+	.gbr1 {
+		width: 300px;
+		height: 200px;
+	}
+	.gbr2 {
+		width: 284px;
+		height: 300px;
+	}
+	.gbr3 {
+		width: 284px;
+		height: 300px;
+	}
+	#satu {
+		padding : 8px;
+		display : none;
+		text-align: left;
+		background-color: white;
+	}
+	#dua {
+		padding : 8px;
+		display : none;
+		text-align: left;
+		background-color: white;
+	}
+	#tiga {
+		padding : 8px;
+		display : none;
+		text-align: left;
+		background-color: white;
+	}
+	#tombol1,#tombol2,#tombol3{
+		width: 284px;
+		height: 15px;
+		padding: 8px;
+		border: 1px solid grey;
+		border-radius: 5px;
+		text-align : left;
+		background-color: white;
+	}
+	#tombol1:hover {
+		width: 284px;
+		height: 15px;
+		text-align : left;
+		background-color: #F0FFFF;
+	}
+	#tombol2:hover {
+		width: 284px;
+		height: 15px;
+		text-align : left;
+		background-color: #F0FFFF;
+	}
+	#tombol3:hover {
+		width: 284px;
+		height: 15px;
+		text-align : left;
+		background-color: #F0FFFF;
+	}
+
+	</style>
+</head>
+<body>
+	<fieldset>
+		<h2>Vivo V11</h2>
+		<img src="vivo.jpg" class="gbr1">
+		<div id="tombol1"><strong>Pengenalan</strong></div>
+		<div id="satu">
+		Vivo tidak pernah ragu dalam misinya untuk menghadirkan desain yang selalu impresif.<br>
+		Kini, V11 didesain dengan tampilan baru, Ultra All Screen dengan rasio layar 19:9,<br>
+		yang mampu memberikan tampilan yang sangat hidup. Pada bagian belakang,<br>
+		terdapat lengkungan 3D yang indah pada V11 dan perpaduan warna yang tidak biasa,<br>
+		memberikan kesan stylish, berkualitas dan berkelas.<br>
+		V11 menjadi terlihat semakin memukau baik bagian belakang maupun bagian depan.
+		</div>
+		<div id="tombol2"><strong>Spesifikasi</strong></div>
+		<div id="dua">
+<b>Network </b>
+	Technology 	: GSM / HSPA / LTE<br>
+<b>Launch</b><br>
+	Announced	: 2018, September<br>
+	Status 		: Available. Released 2018, September<br>
+<b>Body</b><br> 
+	Dimensions	: 157.9 x 75 x 7.9 mm (6.22 x 2.95 x 0.31 in)<br>
+	Weight 		: 156 g (5.50 oz)<br>
+	Build		: Plastic frame, glass body<br>
+	SIM			: Dual SIM (Nano-SIM, dual stand-by)<br>
+<b>Display</b><br>
+	Type		: Super AMOLED capacitive touchscreen, 16M colors<br>
+	Size		: 6.41 inches, 100.9 cm2 (~85.2% screen-to-body ratio)<br>
+	Resolution	: 1080 x 2340 pixels, 19.5:9 ratio (~402 ppi density)<br>
+<b>Platform</b><br>
+	OS			: Android 8.1 (Oreo); Funtouch 4.5<br>
+	Chipset		: Qualcomm SDM660 Snapdragon 660 (14 nm)<br>
+	CPU			: Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)<br>
+	GPU			: Adreno 512<br>
+<b>Memory</b><br>
+	Card slot 	: microSD, up to 256 GB (dedicated slot)<br>
+	Internal 	: 64/128 GB, 6 GB RAM<br>
+<b>Main Camera</b><br>
+	Dual		: 12 MP, f/1.8, 1/2.8", dual pixel PDAF<br>
+				5 MP, f/2.4, depth sensor<br>
+	Features	: LED flash, HDR, panorama<br>
+	Video		: 2160p@30fps, 1080p@30fps<br>
+<b>Selfie camera</b><br>	
+	Single		:25 MP, f/2.0, 1/2.8", 0.9µm<br>
+	Features	:HDR<br>
+	Video		:1080p@30fps<br>
+<b>Sound </b><br>
+	Loudspeaker	:Yes<br>
+	3.5mm jack	:Yes<br>
+ 	- Active noise cancellation with dedicated mic<br>
+<b>Comms</b>
+	WLAN		:Wi-Fi 802.11 a/b/g/n/ac, dual-band, WiFi Direct, hotspot<br>
+	Bluetooth	:5.0, A2DP, LE, EDR<br>
+	GPS			:Yes, with A-GPS, GLONASS, BDS<br>
+	Radio		:FM radio<br>
+	USB			:microUSB 2.0, USB On-The-Go<br>
+<b>Features</b><br> 	
+	Sensors		:Fingerprint (under display), accelerometer, proximity, compass<br>
+<b>Battery</b><br>
+Non-removable Li-Po 3400 mAh battery<br>
+	Charging	:Fast battery charging 18W<br>
+<b>Misc</b><br>	
+	Colors		:Starry Night, Dazzling Gold, Nebula, Supernova Red<br>
+	Price		:About 350 EUR<br>
+<b>Tests</b><br>	
+	Performance	:Basemark OS II: 2625 / Basemark OS II 2.0: 2218<br>
+				Basemark X: 18818<br>
+	Display		:Contrast ratio: Infinite (nominal), 4.113 (sunlight)<br>
+	Camera		:Photo / Video<br>
+	Loudspeaker	:Voice 70dB / Noise 73dB / Ring 80dB<br>
+	Audio quality:Noise -92.7dB / Crosstalk -92.1dB<br>
+	Battery life:Endurance rating 98h
+		</div>
+		<div id="tombol3"><strong>Review</strong></div>
+		<div id="tiga">
+		<b>Jitendra</b> : I want to know will Vivo 11 will work out of India ?<br>
+		I had bed experience in Redme. It was not working in USA.<br>
+		the reason is it was made it India. 
+		
+		</div>
+	</fieldset>
+</body>
+</html>
+	
